@@ -1,0 +1,84 @@
+/* 
+#009129 - leaf green
+#d1c9ec - light grey
+#7981d0 - light blue
+#24335f - blue
+#111422 - navy 
+*/
+
+/* Global Styles */
+/* ------------- */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/* Content Styles */
+/* -------------- */
+
+.wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+}
+
+.title {
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #24335f;
+  color: #d1c9ec;
+}
+
+.aboutMe {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #d1c9ec;
+  color: #24335f;
+}
+
+.workExperience {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #111422;
+  color: #7981d0;
+}
+
+.education {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #7981d0;
+  color: #111422;
+}
+
+.projects {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #111422;
+  color: #d1c9ec;
+}
