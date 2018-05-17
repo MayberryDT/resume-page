@@ -7,12 +7,12 @@ const workExperience = (props) => {
         <div className={classes.workExperience}>
             <div className={classes.wrap}>
                 <h2>Work Experience</h2>
-                <div>
+                <div className={classes.colNarrow}>
                     <h3>ESL Teacher</h3>
                     <p>AtoZ Corporation</p>
                     <p>March 2018 - Present</p>
                 </div>
-                <div>
+                <div className={[classes.colWide, classes.description].join(' ')}>
                     <p>
                         Teach kids from kindergarden to junior high 
                         English on a daily basis, foster team

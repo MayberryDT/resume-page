@@ -37,6 +37,14 @@ body {
   margin: 0;
 }
 
+h3 ~ p {
+  margin: 0;
+}
+
+p + h3 {
+  margin-top: 30px;
+}
+
 /* Content Styles */
 /* -------------- */
 
@@ -51,7 +59,7 @@ body {
   padding-top: 50px;
   width: 100%;
   text-align: center;
-  background-color: #24335f;
+  background-color: #111422;
   color: #d1c9ec;
 }
 
@@ -65,8 +73,8 @@ body {
 .workExperience {
   padding-top: 50px;
   width: 100%;
-  background-color: #111422;
-  color: #7981d0;
+  background-color: #24335f;
+  color: #d1c9ec;
 }
 
 .education {
@@ -81,4 +89,33 @@ body {
   width: 100%;
   background-color: #111422;
   color: #d1c9ec;
+}
+
+.description {
+  margin-bottom: 25px;
+}
+.description p:first-of-type {
+  margin-top: 0;
+}
+
+/* Media Queires */
+/* ------------- */
+
+@media (min-width: 900px) {
+  .colNarrow {
+    width: 30%;
+    float: left;
+  }
+
+  .colWide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 899px) {
+  .title {
+    text-align: center;
+  }
 }

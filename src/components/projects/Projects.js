@@ -6,11 +6,15 @@ const projects = (props) => {
     return(
         <div className={classes.projects}>
             <div className={classes.wrap}>
-                <h2>Projects</h2>
-                <p>
-                    My upcoming, ongoing and finished 
-                    projects will be listed here soon.
-                </p>
+                <div className={classes.colNarrow}>
+                    <h2>Projects</h2>
+                </div>
+                <div className={classes.colWide}>
+                    <p>
+                        My upcoming, ongoing and finished 
+                        projects will be listed here soon.
+                    </p>
+                </div>
             </div>
         </div>
     )
