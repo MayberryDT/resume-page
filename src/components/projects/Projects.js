@@ -11,7 +11,6 @@ const projects = (props) => {
                     My upcoming, ongoing and finished 
                     projects will be listed here soon.
                 </p>
-                <p>Projects need changes</p>
             </div>
         </div>
     )
