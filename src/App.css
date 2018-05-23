@@ -84,6 +84,13 @@ p + h3 {
   color: #111422;
 }
 
+.blog {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #d1c9ec;
+  color: #24335f;
+}
+
 .projects {
   padding-top: 50px;
   width: 100%;
@@ -117,5 +124,9 @@ p + h3 {
 @media (max-width: 899px) {
   .title {
     text-align: center;
+  }
+
+  .marginTop {
+    margin-top: 30px;
   }
 }

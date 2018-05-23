@@ -11,8 +11,8 @@ const education = (props) => {
                         <h3>Oklahoma State University</h3>
                         <p>August 2011 - May 2017</p>
                         <p>University Studies</p>
-                    </div>
-                    <div className={classes.colNarrow}>
+                    {/* </div>
+                    <div className={classes.colNarrow}> */}
                         <h3>Shinshu University</h3>
                         <p>September 2015 - August 2016</p>
                         <p>Intensive Japanese Study Course</p>

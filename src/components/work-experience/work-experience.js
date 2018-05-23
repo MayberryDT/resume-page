@@ -12,9 +12,9 @@ const workExperience = (props) => {
                     <p>AtoZ Corporation</p>
                     <p>March 2018 - Present</p>
                 </div>
-                <div className={[classes.colWide, classes.description].join(' ')}>
+                <div className={[classes.colWide, classes.description, classes.marginTop].join(' ')}>
                     <p>
-                        Teach kids from kindergarden to junior high 
+                        I teach kids from kindergarden to junior high 
                         English on a daily basis, foster team
                         teaching skills, working with other teachers 
                         with multiple languages, creating 

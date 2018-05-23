@@ -7,7 +7,7 @@ const title = (props) => {
         <div className={classes.title}>
             <div className={classes.wrap}>
                 <h1>Tyler Mayberry</h1>
-                <h3>Personal Site</h3>
+                <h3>(work in progress)</h3>
             </div>
         </div>
     )
