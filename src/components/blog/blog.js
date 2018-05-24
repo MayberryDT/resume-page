@@ -15,7 +15,7 @@ class Blog extends Component {
     componentDidMount() {
       axios
         .get(
-          "http://public-api.wordpress.com/rest/v1/sites/mayberrydt.wordpress.com/posts"
+          "//public-api.wordpress.com/rest/v1/sites/mayberrydt.wordpress.com/posts"
         )
         .then(res => {
           this.setState({ posts: res.data.posts });
