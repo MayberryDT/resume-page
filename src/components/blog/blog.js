@@ -15,13 +15,14 @@ class Blog extends Component {
     componentDidMount() {
       axios
         .get(
-          "//public-api.wordpress.com/rest/v1/sites/mayberrydt.wordpress.com/posts"
+          "https//public-api.wordpress.com/rest/v1/sites/mayberrydt.wordpress.com/posts"
         )
         .then(res => {
           this.setState({ posts: res.data.posts });
           console.log(this.state.posts);
         })
         .catch(error => console.log(error));
+        console.log("I'm in componentDidMount Blog.js");
     }
   
     render() {
