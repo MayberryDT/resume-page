@@ -15,7 +15,7 @@ class Blog extends Component {
     componentDidMount() {
       axios
         .get(
-          "https//public-api.wordpress.com/rest/v1/sites/mayberrydt.wordpress.com/posts"
+          "https://public-api.wordpress.com/rest/v1/sites/mayberrydt.wordpress.com/posts"
         )
         .then(res => {
           this.setState({ posts: res.data.posts });
@@ -28,7 +28,7 @@ class Blog extends Component {
     render() {
       return (
         <div className={classes.blog}>
-            <div className={classes.wrap}>
+            <div className={classes.wrap} id="blog">
                 <h2>Blog</h2>
                 {this.state.posts.map(post => <ArticlePreview post={post} />)}
             </div>

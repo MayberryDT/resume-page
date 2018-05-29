@@ -5,7 +5,7 @@ import classes from '../../App.css';
 const projects = (props) => {
     return(
         <div className={classes.projects}>
-            <div className={classes.wrap}>
+            <div className={classes.wrap} id="projects">
                 <div className={classes.colNarrow}>
                     <h2>Projects</h2>
                 </div>
