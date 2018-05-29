@@ -13,12 +13,12 @@ class Nav extends React.Component {
                 <HashLink to="#aboutMe" className={classes.link}>
                         About Me
                 </HashLink>
-                <HashLink to="#education" className={classes.link}>
+                {/* <HashLink to="#education" className={classes.link}>
                         Education
                 </HashLink>
                 <HashLink to="#workExperience" className={classes.link}>
                         Work Experience
-                </HashLink>
+                </HashLink> */}
                 <HashLink to="#blog" className={classes.link}>
                         Blog
                 </HashLink>

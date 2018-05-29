@@ -45,6 +45,13 @@ p + h3 {
   margin-top: 30px;
 }
 
+a  {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #d1c9ec;
+}
+
 /* -----Nav----- */
 /* ------------- */
 
@@ -61,6 +68,13 @@ p + h3 {
   padding: 5px 10px;
   text-decoration: none;
   font-weight: 700;
+}
+
+/* --Aritcle Styles-- */
+/* --------------- */
+
+.article {
+  color: #d1c9ec;
 }
 
 /* Content Styles */
@@ -105,15 +119,15 @@ p + h3 {
 .blog {
   padding-top: 50px;
   width: 100%;
-  background-color: #d1c9ec;
-  color: #24335f;
+  background-color: #24335f;
+  color: #d1c9ec;
 }
 
 .projects {
   padding-top: 50px;
   width: 100%;
-  background-color: #111422;
-  color: #d1c9ec;
+  background-color: #7981d0;
+  color: #111422;
 }
 
 .description {

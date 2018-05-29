@@ -19,8 +19,6 @@ class Layout extends React.Component {
         <Aux>
             <Title />
             <AboutMe />
-            <Education />
-            <WorkExperience />
             <Blog />
             <Projects />
         </Aux>
@@ -34,8 +32,6 @@ class Layout extends React.Component {
             </Router>
             <Title />
             <AboutMe />
-            <Education />
-            <WorkExperience />
             <Blog />
             <Projects />
         </Aux>

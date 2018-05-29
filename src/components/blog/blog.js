@@ -29,8 +29,12 @@ class Blog extends Component {
       return (
         <div className={classes.blog}>
             <div className={classes.wrap} id="blog">
+              <div className={classes.colNarrow}>
                 <h2>Blog</h2>
+              </div>
+              <div className={classes.colWide}>
                 {this.state.posts.map(post => <ArticlePreview post={post} />)}
+              </div>
             </div>
         </div>
       );
