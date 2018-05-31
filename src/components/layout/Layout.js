@@ -11,6 +11,7 @@ import WorkExperience from '../work-experience/work-experience';
 import Education from '../education/Education';
 import Projects from '../projects/Projects';
 import Blog from '../blog/blog';
+import ContactMe from '../contact-me/contactMe';
 import Aux from '../hoc/Auxiliary';
 
 class Layout extends React.Component {
@@ -32,8 +33,9 @@ class Layout extends React.Component {
             </Router>
             <Title />
             <AboutMe />
-            <Blog />
-            <Projects />
+            <WorkExperience />
+            <Education />
+            <ContactMe />
         </Aux>
     )
     }

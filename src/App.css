@@ -68,6 +68,7 @@ a  {
   padding: 5px 10px;
   text-decoration: none;
   font-weight: 700;
+  color: #24335f;
 }
 
 /* --Aritcle Styles-- */
@@ -79,6 +80,10 @@ a  {
 
 /* Content Styles */
 /* -------------- */
+
+.profileImg {
+  border-radius: 50%;
+}
 
 .wrap {
   max-width: 950px;
@@ -130,6 +135,14 @@ a  {
   color: #111422;
 }
 
+.contactMe {
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #111422;
+  color: #d1c9ec;
+}
+
 .description {
   margin-bottom: 25px;
 }
@@ -156,10 +169,15 @@ a  {
 @media (max-width: 899px) {
   .title {
     text-align: center;
+    font-size: 50px;
   }
 
   .marginTop {
     margin-top: 30px;
+  }
+
+  .profileImg {
+    width: 200px;
   }
 
   h1 {
