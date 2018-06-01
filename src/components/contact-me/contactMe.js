@@ -7,7 +7,7 @@ const contactMe = () => {
         <div className={classes.contactMe}>
             <div className={classes.wrap} id="contactMe">
                 <div className={classes.colNarrow}>
-                    <h2>Contact Me</h2>
+                    <h2>Contact Me!</h2>
                 </div>
                 <div className={classes.colWide}>
                     <a href="mailto:mayberrydt@gmail.com"><i class="far fa-envelope"></i></a>
