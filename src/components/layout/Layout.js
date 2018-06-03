@@ -9,21 +9,11 @@ import Nav from '../nav/Nav';
 import AboutMe from '../about-me/AboutMe';
 import WorkExperience from '../work-experience/work-experience';
 import Education from '../education/Education';
-import Projects from '../projects/Projects';
-import Blog from '../blog/blog';
 import ContactMe from '../contact-me/contactMe';
 import Aux from '../hoc/Auxiliary';
 
 class Layout extends React.Component {
     render() {
-        const main = () => (
-        <Aux>
-            <Title />
-            <AboutMe />
-            <Blog />
-            <Projects />
-        </Aux>
-        )
     return(
         <Aux>
             <Router>

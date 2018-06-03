@@ -7,11 +7,8 @@ class Nav extends React.Component {
     render() {
         return(
             <div className={classes.nav}>
-                <HashLink to="#title" className={classes.link}>
-                        Title
-                </HashLink>
                 <HashLink to="#aboutMe" className={classes.link}>
-                        About Me
+                        About
                 </HashLink>
                 <HashLink to="#workExperience" className={classes.link}>
                         Work Experience
@@ -20,7 +17,7 @@ class Nav extends React.Component {
                         Education
                 </HashLink>
                 <HashLink to="#contactMe" className={classes.link}>
-                        Contact Me
+                        Contact
                 </HashLink>
                 {/* <HashLink to="#blog" className={classes.link}>
                         Blog
